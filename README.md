@@ -10,7 +10,7 @@ If not, the bot will see if the post is a YouTube link, and use that link as the
 You can find out more [on this reddit post.](http://www.reddit.com/r/JiffyBot/comments/1fvyi5/rjiffybot_information_directory/)
 
 ## Setup
-You can find info on setting the bot up in the docs/SETUP.md file.
+You can find info on setting the bot up in the [docs/SETUP.md](https://github.com/drkabob/JiffyBot/blob/master/docs/SETUP.md) file.
 
 ### Help! The bot isn't working or I can't set it up or I'm getting weird errors or I've grown a third arm!
 You can find help by posting something on JiffyBot's [subreddit](http://www.reddit.com/r/JiffyBot).
@@ -22,13 +22,13 @@ We're actively looking for new features, bug fixes, etc. for JiffyBot. If you wa
 As far as guidelines go we aren't too picky, just try to follow PEP8, comment your code so everyone knows what it does. (I'll be sure to do the same in the future.)
 Also, try to stick with the modules that are currently loaded or are in the standard library. If you do need or want functionality that is in external library, don't be discouraged, just be sure to mention it in the pull request.
 
-If you submit a change that is super awesome you might be added to the docs/CONTRIBUTORS.md list along with what you contributed!
+If you submit a change that is super awesome you might be added to the [docs/CONTRIBUTORS.md](https://github.com/drkabob/JiffyBot/blob/master/docs/CONTRIBUTORS.md) list along with what you contributed!
 
 ### But **what** should I do to help?
-If you're looking for something to do look at the todo list in docs/TODO.md
+If you're looking for something to do look at the todo list in [docs/TODO.md](https://github.com/drkabob/JiffyBot/blob/master/docs/TODO.md)
 
 ## License
-The bot is licensed under GPL v3 with the following stipulations. Please view the license file in docs/LICENSE.
+The bot is licensed under GPL v3 with the following stipulations. Please view the license file in [docs/LICENSE](https://github.com/drkabob/JiffyBot/blob/master/docs/LICENSE).
 
 * Your derivative work or copy of work must link to either this GitHub page or [this subreddit](http://www.reddit.com/r/JiffyBot). This link must be visible to any users of your derivative work.
 * You must credit both Nathan Hakkakzadeh and John O'Reilly somewhere public relating to your derivative work.
@@ -45,4 +45,4 @@ You can find him on [twitter](http://twitter.com/John_O_Really), [reddit](http:/
 JiffyBot is written by Nathan Hakkakzadeh. He writes code and makes sure the bot doesn't crash (it does anyway). If you have any technical questions or advice, he's the one who takes them.
 You can find him on [twitter](http://twitter.com/drkabob), [reddit](http://www.reddit.com/u/drkabob), and [his website](http://www.welcometonathan.com/) (try to find all the secrets!).
 
-Finally, check out these awesome guys who contributed in docs/CONTRIBUTORS.md.
+Finally, check out these awesome guys who contributed in [docs/CONTRIBUTORS.md](https://github.com/drkabob/JiffyBot/blob/master/docs/CONTRIBUTORS.md).

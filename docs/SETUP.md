@@ -27,7 +27,8 @@ It is also strongly recommended that you run the bot in a screen session.
 Finally, if you find the need to blacklist a particular subreddit, put the name of the subreddit (minus the /r/ part) in a separate line in the `blacklist.txt` file.
 
 For example, if you wanted to ban /r/JiffyBot and /r/pics your `blacklist.txt` would look like this:
-```JiffyBot
+```
+JiffyBot
 pics
 ```
 
