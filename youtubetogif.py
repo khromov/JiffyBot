@@ -137,7 +137,7 @@ def youtubetogif(youtubelink, token, start, stop):
         # Convert to frames
         check_call([
             "ffmpeg", "-ss", start, "-i", token + "-vid", "-t", tosend, "-vf",
-            "scale=244:trunc(ow/a/2)*2", "-r", "10", token + "-frames%05d.gif"],
+            "scale=240:trunc(ow/a/2)*2", "-r", "10", token + "-frames%05d.gif"],
             stdout=open("/dev/null", "w"), stderr=subprocess.STDOUT)
 
         # Stitch it together as a gif
