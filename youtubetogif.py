@@ -24,6 +24,7 @@
 '''
 
 from subprocess import check_call
+import subprocess
 import string
 import random
 import glob
@@ -130,12 +131,14 @@ def youtubetogif(youtubelink, token, start, stop):
         # Download the YouTube link and save it
         check_call([
             "youtube-dl", "-o", token + "-vid", "-f", "5", "--max-filesize",
-            "40m", "-u", YT_USERNAME, "-p", YT_PASSWORD, youtubelink])
+            "40m", "-u", YT_USERNAME, "-p", YT_PASSWORD, youtubelink],
+            stdout=open("/dev/null", "w"), stderr=subprocess.STDOUT)
 
         # Convert to frames
         check_call([
             "ffmpeg", "-ss", start, "-i", token + "-vid", "-t", tosend, "-s",
-            "244x148", "-r", "10", token + "-frames%05d.gif"])
+            "244x148", "-r", "10", token + "-frames%05d.gif"],
+            stdout=open("/dev/null", "w"), stderr=subprocess.STDOUT)
 
         # Stitch it together as a gif
         files = glob.glob(token + "-frames*.gif")

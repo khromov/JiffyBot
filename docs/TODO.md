@@ -8,6 +8,6 @@
 - [X] Make PEP8 compatible
 - [ ] Fix memory leak. Jiffy opens new thread for each GIF request, eventually runs out of memory. Maybe implement queue?
 - [ ] Better console interface
-	- [ ] Route ffmpeg, youtube-dl, gifsicle, etc, to /dev/null instead of stdout
+	- [X] Route ffmpeg, youtube-dl, gifsicle, etc, to /dev/null instead of stdout
 - [ ] APNG?
 - [ ] Captions?
