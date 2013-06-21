@@ -51,12 +51,12 @@ HEADERS = {"Authorization": "Client-ID " + API_KEY}
 # Reddit related
 USERNAME = config.get("Reddit", "username")
 PASSWORD = config.get("Reddit", "password")
-COMMENT_TEMPLATE = "Here's your GIF!\n\n{0}\n\n_____\n^Hey ^I'm ^JiffyBot, ^I\
-    ^make ^GIFs ^out ^of ^YouTube ^links. ^Find ^out ^more [^here.](http://re\
-    dd.it/1fvyi5)"
-MULTI_TEMPLATE = "Here are your GIFs!\n\n{0}\n\n_____\n^Hey ^I'm ^JiffyBot,\
-    ^I ^make ^GIFs ^out ^of ^YouTube ^links. ^Find ^out ^more [^here.](http:/\
-    /redd.it/1fvyi5)"
+COMMENT_TEMPLATE = "Here's your GIF!\n\n{0}\n\n_____\n^(Hey I'm JiffyBot, I\
+    make GIFs out of YouTube links. Find out more [here.](http://re\
+    dd.it/1fvyi5))"
+MULTI_TEMPLATE = "Here are your GIFs!\n\n{0}\n\n_____\n^(Hey I'm JiffyBot,\
+    I make GIFs out of YouTube links. Find out more [here.](http:/\
+    /redd.it/1fvyi5))"
 
 # YouTube related
 YT_USERNAME = config.get("YouTube", "username")
