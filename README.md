@@ -45,4 +45,4 @@ You can find him on [twitter](http://twitter.com/John_O_Really), [reddit](http:/
 JiffyBot is written by Nathan Hakkakzadeh. He writes code and makes sure the bot doesn't crash (it does anyway). If you have any technical questions or advice, he's the one who takes them.
 You can find him on [twitter](http://twitter.com/drkabob), [reddit](http://www.reddit.com/u/drkabob), and [his website](http://www.welcometonathan.com/) (try to find all the secrets!).
 
-Finally, check out these awesome guys who contributed in [docs/CONTRIBUTORS.md](https://github.com/drkabob/JiffyBot/blob/master/docs/CONTRIBUTORS.md).
+Finally, [check out these awesome guys who contributed.](https://github.com/drkabob/JiffyBot/graphs/contributors)
