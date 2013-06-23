@@ -120,7 +120,7 @@ def youtubetogif(youtubelink, token, start, stop):
 
             for i in range(1, len(diff)):
                 if diff[i] > 0:
-                    raise Excpetion("Length too long.")
+                    raise Exception("Length too long.")
 
         reverse_diff = diff[::-1]
 
